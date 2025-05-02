@@ -1,0 +1,73 @@
+# Dependencies
+node_modules
+
+# Production
+/public/dist
+/public/build
+
+# Misc
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs
+*.log
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Vite
+*.local
+
+# Sensitive files
+**/test/fixtures/**/*.key
+**/test/fixtures/**/*.pem
+**/test/fixtures/**/id_*
+**/test/fixtures/**/*_key
+**/test/fixtures/**/*_rsa
+**/test/fixtures/**/*_dsa
+**/test/fixtures/**/*_ecdsa
+**/test/fixtures/**/*_ed25519
+**/test/fixtures/**/*.ppk
+**/test/fixtures/**/*.cert
+**/test/fixtures/**/*.crt
+**/test/fixtures/**/*.csr
+**/test/fixtures/**/*.p12
+**/test/fixtures/**/*.pfx
+**/test/fixtures/**/*.der
+**/test/fixtures/**/*.p7b
+**/test/fixtures/**/*.p7c
+**/test/fixtures/**/*.p7m
+**/test/fixtures/**/*.p7s
+**/test/fixtures/**/*.p8
+**/test/fixtures/**/*.p10
+**/test/fixtures/**/*.spc
+**/test/fixtures/**/*.sst
+**/test/fixtures/**/*.stl
+**/test/fixtures/**/*.cer
+**/test/fixtures/**/*.crt
+**/test/fixtures/**/*.der
+**/test/fixtures/**/*.p7b
+**/test/fixtures/**/*.p7c
+**/test/fixtures/**/*.p7m
+**/test/fixtures/**/*.p7s
+**/test/fixtures/**/*.p8
+**/test/fixtures/**/*.p10
+**/test/fixtures/**/*.spc
+**/test/fixtures/**/*.sst
+**/test/fixtures/**/*.stl 
